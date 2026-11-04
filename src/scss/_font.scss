@@ -1,0 +1,102 @@
+:root {
+  --font-family-base: "Montserrat", sans-serif;
+  --font-optical-sizing: auto;
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-semi-bold: 700;
+  --font-weight-bold: 800;
+  --font-style-normal: normal;
+  --font-style-medium: medium;
+  --font-style-semi-bold: SemiBold;
+  --font-style-light: light;
+  --font-size-1: 2rem;
+  --font-size-2: 1.75rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 1.25rem;
+  --font-size-5: 1rem;
+  --font-size-6: 0.875rem;
+}
+.heading-1 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-medium);
+  font-size: var(--font-size-1);
+}
+.heading-2 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-2);
+}
+.heading-3 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-3);
+}
+.heading-4 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-4);
+}
+.body-1 .regular {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-4);
+}
+.body-1 .SemiBold {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-4);
+}
+.body-2 .regular {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-5);
+}
+.body-2 .medium {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-medium);
+  font-size: var(--font-size-5);
+}
+.body-2 .regular-underlined {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: underline;
+  font-size: var(--font-size-5);
+}
+.body-3 .regular {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-6);
+}
+.body-3 .light {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-light);
+  font-style: var(--font-style-light);
+  font-size: var(--font-size-6);
+}
+.body-3 .SemiBold {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-6);
+}
