@@ -1,10 +1,11 @@
 :root {
   --font-family-base: "Montserrat", sans-serif;
   --font-optical-sizing: auto;
-  --font-weight-regular: 400;
+  --font-weight-regular: 300;
   --font-weight-medium: 600;
   --font-weight-semi-bold: 700;
   --font-weight-bold: 800;
+  --font-weight-light: 100;
   --font-style-normal: normal;
   --font-style-medium: medium;
   --font-style-semi-bold: SemiBold;
@@ -58,7 +59,8 @@
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-4);
 }
-.body-2 .regular {
+.body-2 .regular,
+button {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -72,7 +74,8 @@
   font-style: var(--font-style-medium);
   font-size: var(--font-size-5);
 }
-.body-2 .regular-underlined {
+.body-2 .regular-underlined,
+a {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);

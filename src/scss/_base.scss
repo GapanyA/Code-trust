@@ -1,3 +1,16 @@
+:root {
+  --color-primary-900: #000000;
+  --color-primary-800: #343434;
+  --color-primary-600: #6c6f72;
+  --color-primary-500: #b4bbc0;
+  --color-primary-100: #bbbbbb;
+  --color-primary-200: #eceeef;
+  --color-primary-50: #f5f5f5;
+  --color-primary-0: #ffffff;
+  --color-primary-900-70: #000000b3;
+  --color-primary-900-50: #00000080;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +24,49 @@ a {
 img,
 video {
   display: block;
+}
+
+body {
+  margin: var(--layout-padding-default-vertical)
+    var(--layout-padding-default-horizontal);
+}
+
+.zone-primary {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary-0);
+  align-items: center;
+  max-width: fit-content;
+  gap: var(--layout-gap-vertical);
+  margin-bottom: var(--layout-gap-vertical);
+  padding: var(--layout-padding-default-vertical)
+    var(--layout-padding-default-horizontal);
+  .default {
+    display: flex;
+    flex-direction: row;
+  }
+  .small {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.zone-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: fit-content;
+  gap: var(--layout-gap-vertical);
+  padding: var(--layout-padding-default-vertical)
+    var(--layout-padding-default-horizontal);
+  background-color: var(--color-primary-900);
+
+  .default {
+    display: flex;
+    flex-direction: row;
+  }
+  .small {
+    display: flex;
+    flex-direction: row;
+  }
 }
